@@ -14,6 +14,8 @@ def cut(n):
     im = im.crop(bb); b = io.BytesIO(); im.save(b, 'PNG'); return 'data:image/png;base64,' + base64.b64encode(b.getvalue()).decode(), im.size
 
 GUIDES = {
+ 'stocking': dict(big='Stocking', script='stuffers', sub='small, good and all under $30', items=[('14',''),('16',''),('13',''),('15',''),('17',''),('12','')],
+              boxes=[(50, 520, 450, 400), (520, 500, 200, 430), (730, 560, 230, 330), (60, 950, 340, 430), (420, 960, 170, 420), (610, 1010, 330, 360)]),
  'host':  dict(big='Gift guide', script='for the host', sub='for the friend who always has people over', items=[('01', 'cb2'), ('02', 'cb2'), ('03', 'cb2'), ('04', 'parachute')],
               boxes=[(70, 560, 430, 470), (500, 520, 430, 500), (110, 1010, 330, 380), (470, 1040, 470, 330)]),
  'cozy':  dict(big='Gift guide', script='for the cozy one', sub='for the friend who lives in knits', items=[('08', 'avec les filles'), ('06', 'nordstrom'), ('07', 'caslon'), ('04', 'parachute')],
