@@ -1,0 +1,196 @@
+{
+ "date": "Nov 12",
+ "headline_options": [
+  "Early Black Friday, edited.",
+  "10 things worth buying before Black Friday",
+  "Sale finds that don't look like sale finds"
+ ],
+ "headline": "Early Black Friday, edited.",
+ "items": [
+  {
+   "n": "01",
+   "brand": "CB2",
+   "name": "Roxana green glass hurricane",
+   "now": "54",
+   "was": "109",
+   "off": "50%",
+   "retailer": "CB2",
+   "note": "Forest green glass on a brass base. Holiday table, handled.",
+   "short": "Roxana hurricane"
+  },
+  {
+   "n": "02",
+   "brand": "CB2",
+   "name": "Naomi faux alabaster hurricane, small",
+   "now": "48.57",
+   "was": "89.95",
+   "off": "46%",
+   "retailer": "CB2",
+   "note": "Looks like carved stone. It isn't, and it's half off."
+  },
+  {
+   "n": "03",
+   "brand": "CB2",
+   "name": "Blythe double taper candle holder",
+   "now": "25",
+   "was": "39.95",
+   "off": "37%",
+   "retailer": "CB2",
+   "note": "A hostess gift that looks like you tried."
+  },
+  {
+   "n": "04",
+   "brand": "Parachute",
+   "name": "Cloud organic cotton gauze shams, set of 2",
+   "now": "19.75",
+   "was": "79",
+   "off": "75%",
+   "retailer": "Nordstrom",
+   "note": "Parachute at 75% off. Don't overthink it.",
+   "fine": "standard size",
+   "short": "Gauze shams"
+  },
+  {
+   "n": "05",
+   "brand": "CB2",
+   "name": "Polar cement floor lamp",
+   "now": "319",
+   "was": "399",
+   "off": "20%",
+   "retailer": "CB2",
+   "note": "The lamp that makes a room look finished."
+  },
+  {
+   "n": "06",
+   "brand": "Nordstrom",
+   "name": "Cashmere crewneck sweater",
+   "now": "99.90",
+   "was": "169",
+   "off": "40%",
+   "retailer": "Nordstrom",
+   "note": "Cashmere under $100. The easy yes.",
+   "short": "Cashmere"
+  },
+  {
+   "n": "07",
+   "brand": "Caslon",
+   "name": "Wool & cashmere V-neck sweater",
+   "now": "71.40",
+   "was": "119",
+   "off": "40%",
+   "retailer": "Nordstrom",
+   "note": "Soft pink wool and cashmere for the cozy months.",
+   "short": "V-neck"
+  },
+  {
+   "n": "08",
+   "brand": "Avec Les Filles",
+   "name": "Suede barn coat",
+   "now": "99.99",
+   "was": "418",
+   "off": "76%",
+   "retailer": "Nordstrom",
+   "note": "Chocolate suede for under $100. Read that again.",
+   "short": "Barn coat"
+  },
+  {
+   "n": "11",
+   "brand": "TOM FORD",
+   "name": "Oud Minerale eau de parfum, 1.7 oz",
+   "now": "115.50",
+   "was": "165",
+   "off": "30%",
+   "retailer": "Sephora",
+   "note": "Smoky woods and musk in a gold bottle. Very giftable."
+  },
+  {
+   "n": "12",
+   "brand": "ILIA",
+   "name": "Multi-Stick cream blush + lip tint",
+   "now": "25.20",
+   "was": "36",
+   "off": "30%",
+   "retailer": "Sephora",
+   "note": "Cheek and lip in one. Stocking stuffer energy."
+  }
+ ],
+ "pins": [
+  {
+   "n": "08",
+   "kicker": "sale find",
+   "headline": "The suede jacket that goes with everything",
+   "brand": "Avec Les Filles",
+   "name": "Suede barn coat"
+  },
+  {
+   "n": "01",
+   "kicker": "sale find",
+   "headline": "Green glass is the holiday table move",
+   "brand": "CB2",
+   "name": "Roxana glass hurricane"
+  },
+  {
+   "n": "02",
+   "kicker": "sale find",
+   "headline": "It looks like alabaster. It isn't.",
+   "brand": "CB2",
+   "name": "Naomi faux alabaster hurricane"
+  },
+  {
+   "n": "06",
+   "kicker": "sale find",
+   "headline": "Camel cashmere, the forever kind",
+   "brand": "Nordstrom",
+   "name": "Cashmere crewneck sweater"
+  },
+  {
+   "n": "05",
+   "kicker": "sale find",
+   "headline": "A lamp that does the decorating for you",
+   "brand": "CB2",
+   "name": "Polar cement floor lamp"
+  },
+  {
+   "n": "11",
+   "kicker": "sale find",
+   "headline": "Smoky woods and musk, in a gold bottle",
+   "brand": "TOM FORD",
+   "name": "Oud Minerale eau de parfum"
+  }
+ ],
+ "allele": [
+  {
+   "id": "ta",
+   "season": "True Autumn",
+   "bg": "#8B4513",
+   "ink": "#F4EBD8",
+   "accent": "#E3B65C",
+   "from": "black leather",
+   "to": "chocolate suede",
+   "note": "True Autumn's palette trades flat black for warm, deep browns. Same mood, softer on warm skin.",
+   "items": [
+    "08",
+    "06",
+    "01"
+   ],
+   "palette": "Rust #B5500B; Persimmon #C4611E; Chestnut #8B4513; Olive #556B2F; Moss #6B8E23; Ochre #B8860B; Brick #8B3A1A; Cypress #4A5D23",
+   "link": "https://shopmy.us/collections/8793271"
+  },
+  {
+   "id": "ss",
+   "season": "Soft Summer",
+   "bg": "#C4B5B8",
+   "ink": "#252026",
+   "accent": "#3F3844",
+   "from": "hot pink",
+   "to": "soft pink",
+   "note": "Soft Summer's palette trades neon brights for muted, dusty tones. Think powder pink and stone grey.",
+   "items": [
+    "07",
+    "04"
+   ],
+   "palette": "Plum #B8A9C9; Rose #C4B5B8; Taupe #A89B8C; Sage #8C9B8A; Wine #7A6B7A; Khaki #9B8B7A; Fig #6B5D6B; Mushroom #A89B9B",
+   "link": "https://shopmy.us/collections/8793283"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "hosting": {
+  "items": [
+   "01",
+   "02",
+   "03",
+   "05",
+   "04"
+  ],
+  "headline": "Hosting season, sorted.",
+  "sub": "home &amp; hosting",
+  "picks": [
+   "01",
+   "02",
+   "03",
+   "05"
+  ]
+ },
+ "gifts": {
+  "items": [
+   "11",
+   "06",
+   "07",
+   "01",
+   "02",
+   "12",
+   "03"
+  ],
+  "headline": "Gifts under $120 that don't look it.",
+  "sub": "gifts",
+  "picks": [
+   "11",
+   "06",
+   "12",
+   "01"
+  ]
+ },
+ "cozy": {
+  "items": [
+   "08",
+   "06",
+   "07",
+   "04",
+   "02"
+  ],
+  "headline": "Cozy season, on sale.",
+  "sub": "knits, suede &amp; soft things",
+  "picks": [
+   "08",
+   "06",
+   "07",
+   "04"
+  ]
+ },
+ "under55": {
+  "items": [
+   "04",
+   "03",
+   "12",
+   "02",
+   "01"
+  ],
+  "headline": "Everything here is under $55.",
+  "sub": "home &amp; beauty",
+  "picks": [
+   "01",
+   "02",
+   "03",
+   "12"
+  ]
+ },
+ "bigbuys": {
+  "items": [
+   "08",
+   "06",
+   "11",
+   "05"
+  ],
+  "headline": "The bigger buys, finally marked down.",
+  "sub": "fashion, beauty &amp; home",
+  "picks": [
+   "08",
+   "06",
+   "11",
+   "05"
+  ]
+ }
+}
