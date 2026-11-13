@@ -15,10 +15,10 @@ DATE = D['date']
 COVER = {
  'main':    dict(big='On sale', script='Black Friday', sub='early black friday, edited.', label='on sale'),
  'hosting': dict(big='Hosting', script='on sale', sub='hosting season, sorted.', label='on sale'),
- 'gifts':   dict(big='Gifts', script='under $120', sub="that don't look it.", label='gift edit'),
- 'cozy':    dict(big='Cozy', script='season', sub='the soft stuff, marked down.', label='on sale'),
- 'under55': dict(big='Under $55', script='on sale', sub='everything here is under $55.', label='on sale'),
- 'bigbuys': dict(big='Big buys', script='marked down', sub='the bigger buys, finally on sale.', label='on sale'),
+ 'gifts':   dict(picks=['11','07','02'], big='Gifts', script='under $120', sub="that don't look it.", label='gift edit'),
+ 'cozy':    dict(picks=['04','02','07'], big='Cozy', script='season', sub='the soft stuff, marked down.', label='on sale'),
+ 'under55': dict(picks=['12','04','03'], big='Under $55', script='on sale', sub='everything here is under $55.', label='on sale'),
+ 'bigbuys': dict(picks=['05','06','08'], big='Big buys', script='marked down', sub='the bigger buys, finally on sale.', label='on sale'),
 }
 SHORT = {'01': 'Green glass hurricane', '02': 'Alabaster hurricane', '03': 'Taper holder', '04': 'Gauze shams',
          '05': 'Cement floor lamp', '06': 'Camel cashmere', '07': 'Cashmere V-neck', '08': 'Suede barn coat',
@@ -96,7 +96,7 @@ def cover(items, c):
     tiles = [items[i % len(items)]['n'] for i in range(4)]
     pos = [(-30, -41), (543, -41), (-30, 675), (545, 675)]
     bgt = ''.join(f"<img class=a src='{photo(t)}' style='left:{x}px;top:{y}px;width:575px;height:716px;object-fit:cover'>" for t, (x, y) in zip(tiles, pos))
-    picks = [it['n'] for it in items[:3]]
+    picks = c.get('picks') or [it['n'] for it in items[:3]]
     xs = [120, 400, 680]
     prods = ''.join(f"<div class=a style='left:{x}px;top:705px;width:280px;height:540px;display:flex;align-items:flex-end;justify-content:center'>"
                     f"<img src='{cut(p)}' style='max-width:100%;max-height:100%;object-fit:contain'></div>" for x, p in zip(xs, picks))
